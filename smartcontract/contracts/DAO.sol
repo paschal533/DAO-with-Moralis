@@ -138,7 +138,7 @@ contract Dao {
     function addTokenId(uint256 _tokenId) public {
         require(msg.sender == owner, "Only Owner Can Add Tokens");
 
-        validTokens.push(_tokenId);
+        //validTokens.push(_tokenId);
     }
     
 }
