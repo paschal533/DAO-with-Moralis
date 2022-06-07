@@ -14,7 +14,7 @@ const Proposal = () => {
   const [percDown, setPercDown] = useState(0);
   const [votes, setVotes] = useState([]);
   const [sub, setSub] = useState(false);
-  //const contractProcessor = useWeb3ExecuteFunction();
+  const contractProcessor = useWeb3ExecuteFunction();
 
   useEffect(() => {
     if (isInitialized) {
