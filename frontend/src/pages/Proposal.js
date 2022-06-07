@@ -7,7 +7,7 @@ import { useMoralis, useWeb3ExecuteFunction } from "react-moralis";
 
 const Proposal = () => {
 
-  const { state: proposalDetails } = useLocation();
+  //const { state: proposalDetails } = useLocation();
   const { Moralis, isInitialized } = useMoralis();
   const [latestVote, setLatestVote] = useState();
   const [percUp, setPercUp] = useState(0);
