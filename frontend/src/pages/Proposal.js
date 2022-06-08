@@ -19,7 +19,7 @@ const Proposal = () => {
   useEffect(() => {
     if (isInitialized) {
       
-      async function getVotes() {
+     // async function getVotes() {
         
         const Votes = Moralis.Object.extend("Votes");
         const query = new Moralis.Query(Votes);
