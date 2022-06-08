@@ -9,7 +9,7 @@ const Proposal = () => {
 
   const { state: proposalDetails } = useLocation();
   const { Moralis, isInitialized } = useMoralis();
-  //const [latestVote, setLatestVote] = useState();
+  const [latestVote, setLatestVote] = useState();
   const [percUp, setPercUp] = useState(0);
   const [percDown, setPercDown] = useState(0);
   const [votes, setVotes] = useState([]);
