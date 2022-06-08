@@ -12,7 +12,7 @@ const Proposal = () => {
   const [latestVote, setLatestVote] = useState();
   const [percUp, setPercUp] = useState(0);
   const [percDown, setPercDown] = useState(0);
-  //const [votes, setVotes] = useState([]);
+  const [votes, setVotes] = useState([]);
   const [sub, setSub] = useState(false);
   const contractProcessor = useWeb3ExecuteFunction();
 
