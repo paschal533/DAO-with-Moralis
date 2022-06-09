@@ -113,7 +113,7 @@ const Home = () => {
 
       async function getPassRate() {
         const ProposalCounts = Moralis.Object.extend("ProposalCounts");
-        //const query = new Moralis.Query(ProposalCounts);
+        const query = new Moralis.Query(ProposalCounts);
         const results = await query.find();
         let votesUp = 0;
 
