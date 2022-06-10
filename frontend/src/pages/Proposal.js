@@ -25,7 +25,7 @@ const Proposal = () => {
         const query = new Moralis.Query(Votes);
         query.equalTo("proposal", proposalDetails.id);
         query.descending("createdAt");
-        //const results = await query.find();
+        const results = await query.find();
         if (results.length > 0) {
           setLatestVote(results[0].attributes);
           setPercDown(
