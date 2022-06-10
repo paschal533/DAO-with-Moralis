@@ -21,7 +21,7 @@ const Proposal = () => {
       
       async function getVotes() {
         
-        const Votes = Moralis.Object.extend("Votes");
+        //Sconst Votes = Moralis.Object.extend("Votes");
         const query = new Moralis.Query(Votes);
         query.equalTo("proposal", proposalDetails.id);
         query.descending("createdAt");
