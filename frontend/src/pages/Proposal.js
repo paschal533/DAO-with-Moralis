@@ -33,7 +33,7 @@ const Proposal = () => {
               (Number(results[0].attributes.votesDown) /
                 (Number(results[0].attributes.votesDown) +
                   Number(results[0].attributes.votesUp))) *
-              100
+              //100
             ).toFixed(0)
           );
           setPercUp(
