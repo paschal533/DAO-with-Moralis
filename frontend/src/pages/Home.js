@@ -119,7 +119,7 @@ const Home = () => {
 
         results.forEach((e) => {
           if (e.attributes.passed) {
-            votesUp++;
+            //votesUp++;
           }
         });
 
