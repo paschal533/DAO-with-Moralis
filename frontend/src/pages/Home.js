@@ -123,7 +123,7 @@ const Home = () => {
           }
         });
 
-        setCounted(results.length);
+        //setCounted(results.length);
         setPassRate((votesUp / results.length) * 100);
       }
 
