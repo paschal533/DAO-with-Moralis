@@ -115,7 +115,7 @@ const Home = () => {
         const ProposalCounts = Moralis.Object.extend("ProposalCounts");
         const query = new Moralis.Query(ProposalCounts);
         const results = await query.find();
-        let votesUp = 0;
+        //let votesUp = 0;
 
         results.forEach((e) => {
           if (e.attributes.passed) {
