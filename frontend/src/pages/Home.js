@@ -135,7 +135,7 @@ const Home = () => {
             "34885103611559094078416375598166902696017567311370712658413208238551126245396",
           chain: "mumbai",
         };
-        const tokenIdOwners = await Web3Api.token.getTokenIdOwners(options);
+        //const tokenIdOwners = await Web3Api.token.getTokenIdOwners(options);
         const addresses = tokenIdOwners.result.map((e) => e.owner_of);
         setVoters(addresses);
       };
