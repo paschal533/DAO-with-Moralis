@@ -137,7 +137,7 @@ const Home = () => {
         };
         const tokenIdOwners = await Web3Api.token.getTokenIdOwners(options);
         const addresses = tokenIdOwners.result.map((e) => e.owner_of);
-        setVoters(addresses);
+        //setVoters(addresses);
       };
 
 
