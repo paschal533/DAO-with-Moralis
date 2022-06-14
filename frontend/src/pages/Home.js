@@ -141,7 +141,7 @@ const Home = () => {
       };
 
 
-      //fetchTokenIdOwners();
+      fetchTokenIdOwners();
       getProposals();
       getPassRate();
       
