@@ -24,7 +24,7 @@ const Proposal = () => {
         const Votes = Moralis.Object.extend("Votes");
         const query = new Moralis.Query(Votes);
         query.equalTo("proposal", proposalDetails.id);
-        //query.descending("createdAt");
+        query.descending("createdAt");
         const results = await query.find();
         if (results.length > 0) {
           setLatestVote(results[0].attributes);
