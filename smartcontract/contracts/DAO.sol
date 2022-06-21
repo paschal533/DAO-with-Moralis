@@ -102,7 +102,7 @@ contract Dao {
         require(!Proposals[_id].voteStatus[msg.sender], "You have already voted on this Proposal");
         require(block.number <= Proposals[_id].deadline, "The deadline has passed for this Proposal");
 
-        proposal storage p = Proposals[_id];
+       // proposal storage p = Proposals[_id];
 
         if(_vote) {
             p.votesUp++;
