@@ -11,7 +11,7 @@ contract Dao {
     address public owner;
     uint256 nextProposal;
     uint256[] public validTokens;
-    IdaoContract daoContract;
+   // IdaoContract daoContract;
 
     constructor(){
         owner = msg.sender;
