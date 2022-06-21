@@ -8,7 +8,7 @@ interface IdaoContract {
 
 contract Dao {
 
-    //address public owner;
+    address public owner;
     uint256 nextProposal;
     uint256[] public validTokens;
     IdaoContract daoContract;
